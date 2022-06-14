@@ -1,0 +1,55 @@
+.Recipe {
+  padding-top: 42px;
+}
+
+.Recipe__head {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.Recipe__title {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.Recipe__info span + span {
+  margin-left: 16px;
+}
+
+.Recipe__divider {
+  margin: 24px 0;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.Recipe__img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.Recipe__body {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 48px;
+}
+
+.Recipe__body p {
+  margin-top: 0;
+}
+
+.Recipe__body table.highlight>tbody>tr:hover {
+  background-color: rgba(129, 199, 132 ,0.4);
+}
+
+.Recipe__iframe {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+  .Recipe__body {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 48px;
+  }
+}

@@ -1,0 +1,7 @@
+.Preloader {
+  background-color: #7e57c2;
+}
+
+.Preloader .indeterminate {
+  background-color: #fff;
+}

@@ -1,0 +1,26 @@
+.Search {
+  position: relative;
+}
+
+.Search input {
+  padding: 8px 16px !important;
+  border-radius: 10px !important;
+  border: none !important;
+  height: 34px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+}
+
+.Search input:hover,
+.Search input:focus {
+  box-shadow: none !important;
+}
+
+.Search .icon {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.MealItem {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.MealsList__brn {
+  margin-bottom: 24px;
+}
+
+.MealItem .card-image {
+  padding: 16px;
+}
+
+.MealItem .card-image img { 
+  display: block;
+  width: 100% !important;
+  height: 100%;
+  border-radius: 10px !important;
+  object-fit: cover;
+}
+
+.MealItem .card-stacked {
+  padding: 16px;
+}
+
+.MealItem .card-content {
+  padding: 0;
+} 
+
+.MealItem .card-action {
+  border: 0;
+  padding: 0;
+}
+
+.MealItem a {
+  display: block;
+  margin: 0 !important;
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-align: center;
+}

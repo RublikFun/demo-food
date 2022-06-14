@@ -1,0 +1,25 @@
+.MealsList {
+  padding-top: 42px;
+}
+
+.MealsList__title {
+  margin: 0;
+}
+
+.MealsList__divider {
+  margin: 24px 0;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.MealsList__wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .MealsList__wrap {
+    grid-template-columns: 1fr;
+  }
+}
